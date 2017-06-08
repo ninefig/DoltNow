@@ -31,7 +31,7 @@ namespace DoItNow
             int qDiasP1 = Convert.ToInt16(txtDiasPrioridade1.Text);
             switch (qDiasP1)
             {
-                 case 1:
+                case 1:
                     txtDiasPrioridade1.Text = "1";
                     break;
                 case 2:
@@ -177,6 +177,83 @@ namespace DoItNow
                     break;
                 case 10:
                     txtDiasPrioridade4.Text = "6";
+                    break;
+                default:
+                    MessageBox.Show("Valor acima do limite máximo permitido (10 dias)");
+                    break;
+            }
+
+
+            int qDiasP5 = Convert.ToInt16(txtDiasPrioridade5.Text);
+            switch (qDiasP5)
+            {
+                case 1:
+                    txtDiasPrioridade5.Text = "1";
+                    break;
+                case 2:
+                    txtDiasPrioridade5.Text = "1";
+                    break;
+                case 3:
+                    txtDiasPrioridade5.Text = "2";
+                    break;
+                case 4:
+                    txtDiasPrioridade5.Text = "2";
+                    break;
+                case 5:
+                    txtDiasPrioridade5.Text = "3";
+                    break;
+                case 6:
+                    txtDiasPrioridade5.Text = "4";
+                    break;
+                case 7:
+                    txtDiasPrioridade5.Text = "4";
+                    break;
+                case 8:
+                    txtDiasPrioridade5.Text = "5";
+                    break;
+                case 9:
+                    txtDiasPrioridade5.Text = "6";
+                    break;
+                case 10:
+                    txtDiasPrioridade5.Text = "6";
+                    break;
+                default:
+                    MessageBox.Show("Valor acima do limite máximo permitido (10 dias)");
+                    break;
+            }
+
+            int qDiasP6 = Convert.ToInt16(txtDiasPrioridade6.Text);
+            switch (qDiasP6)
+            {
+                case 1:
+                    txtDiasPrioridade6.Text = "1";
+                    break;
+                case 2:
+                    txtDiasPrioridade6.Text = "1";
+                    break;
+                case 3:
+                    txtDiasPrioridade6.Text = "2";
+                    break;
+                case 4:
+                    txtDiasPrioridade6.Text = "2";
+                    break;
+                case 5:
+                    txtDiasPrioridade6.Text = "3";
+                    break;
+                case 6:
+                    txtDiasPrioridade6.Text = "4";
+                    break;
+                case 7:
+                    txtDiasPrioridade6.Text = "4";
+                    break;
+                case 8:
+                    txtDiasPrioridade6.Text = "5";
+                    break;
+                case 9:
+                    txtDiasPrioridade6.Text = "6";
+                    break;
+                case 10:
+                    txtDiasPrioridade6.Text = "6";
                     break;
                 default:
                     MessageBox.Show("Valor acima do limite máximo permitido (10 dias)");
@@ -413,6 +490,119 @@ namespace DoItNow
                         break;
                 }
             }
+
+        private void btnCaiPrio1_Click(object sender, EventArgs e)
+        {
+            String txt1 = txtPrioridade1.Text; 
+            String txt2 = txtTarefa1.Text;
+
+            txtPrioridade1.Text = txt2;
+            txtTarefa1.Text = txt1;
+        }
+
+        private void btnCaiPrio2_Click(object sender, EventArgs e)
+        {
+            String txt1 = txtPrioridade2.Text;
+            String txt2 = txtTarefa2.Text;
+
+            txtPrioridade2.Text = txt2;
+            txtTarefa2.Text = txt1;
+        }
+
+        private void btnCaiPrio3_Click(object sender, EventArgs e)
+        {
+            String txt1 = txtPrioridade3.Text;
+            String txt2 = txtTarefa3.Text;
+
+            txtPrioridade3.Text = txt2;
+            txtTarefa3.Text = txt1;
+        }
+
+        private void btnCaiPrio4_Click(object sender, EventArgs e)
+        {
+            String txt1 = txtPrioridade4.Text;
+            String txt2 = txtTarefa4.Text;
+
+            txtPrioridade4.Text = txt2;
+            txtTarefa4.Text = txt1;
+        }
+
+        private void btnCaiPrio5_Click(object sender, EventArgs e)
+        {
+            String txt1 = txtPrioridade5.Text;
+            String txt2 = txtTarefa5.Text;
+
+            txtPrioridade5.Text = txt2;
+            txtTarefa5.Text = txt1;
+        }
+
+        private void btnCaiPrio6_Click(object sender, EventArgs e)
+        {
+            String txt1 = txtPrioridade6.Text;
+            String txt2 = txtTarefa6.Text;
+
+            txtPrioridade6.Text = txt2;
+            txtTarefa6.Text = txt1;
+        }
+
+        private void txtDiasPrioridade3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPrioSobe1_Click(object sender, EventArgs e)
+        {
+            String txt1 = txtPrioridade1.Text;
+            String txt2 = txtTarefa1.Text;
+
+            txtPrioridade1.Text = txt2;
+            txtTarefa1.Text = txt1;
+        }
+
+        private void btnPrioSobe2_Click(object sender, EventArgs e)
+        {
+            String txt1 = txtPrioridade2.Text;
+            String txt2 = txtTarefa2.Text;
+
+            txtPrioridade2.Text = txt2;
+            txtTarefa2.Text = txt1;
+        }
+
+        private void btnPrioSobe3_Click(object sender, EventArgs e)
+        {
+            String txt1 = txtPrioridade3.Text;
+            String txt2 = txtTarefa3.Text;
+
+            txtPrioridade3.Text = txt2;
+            txtTarefa3.Text = txt1;
+        }
+
+        private void btnPrioSobe4_Click(object sender, EventArgs e)
+        {
+            String txt1 = txtPrioridade4.Text;
+            String txt2 = txtTarefa4.Text;
+
+            txtPrioridade4.Text = txt2;
+            txtTarefa4.Text = txt1;
+        }
+
+        private void btnPrioSobe5_Click(object sender, EventArgs e)
+        {
+            String txt1 = txtPrioridade5.Text;
+            String txt2 = txtTarefa5.Text;
+
+            txtPrioridade5.Text = txt2;
+            txtTarefa5.Text = txt1;
+        }
+
+        private void btnPrioSobe6_Click(object sender, EventArgs e)
+        {
+            String txt1 = txtPrioridade6.Text;
+            String txt2 = txtTarefa6.Text;
+
+            txtPrioridade6.Text = txt2;
+            txtTarefa6.Text = txt1;
         }
     }
+}
 
