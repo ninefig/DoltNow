@@ -361,7 +361,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe Script", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(74, 27);
+            this.label2.Location = new System.Drawing.Point(82, 27);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(246, 44);
             this.label2.TabIndex = 12;
